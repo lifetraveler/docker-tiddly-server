@@ -20,4 +20,4 @@ ENV TWS_SETTINGS_FILE /var/lib/tiddly-server/settings.json
 
 EXPOSE ${TWS_PORT}
 
-CMD node /app/node_modules/tiddlyserver/index.js --config ${TWS_SETTINGS_FILE} --stay-on-error
+CMD node /code/node_modules/tiddlyserver/index.js --config ${TWS_SETTINGS_FILE} --stay-on-error
